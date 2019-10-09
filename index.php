@@ -2,7 +2,7 @@
 /**
  * GEOTRACES Researchers Analytical Expertise Database (Read CSV File)
  * author : SEDOO, OMP Data services, Pierre VERT
- * version : 1.0.2
+ * version : 1.0.3
  * gitURI: https://github.com/sedoo/sedoo-geotraces-listexpert
  * 
  */
@@ -57,8 +57,15 @@ A - Aerosol; D - Dissolved (colloids included); P - Particulate; T - Total; TD -
                 <td><a class="waves-effect waves-light modal-trigger tooltipped"  data-position="right" data-tooltip="More about <?php echo $firstname;?>  <?php echo $surname;?>" href="#modal<?php echo $i;?>"><?php echo $firstname;?></a>
                     <div id="modal<?php echo $i;?>" class="modal">
                         <div class="modal-content">
-                            <h3><?php echo $firstname;?> <?php echo $surname;?> <a href="<?php echo $cvUrl;?>" class="waves-effect waves-light btn" title="go to personnal website">
-                            <i class="material-icons left">launch</i>Visit CV url</a><br>
+                            <h3><?php echo $firstname;?> <?php echo $surname;?> 
+                            <?php if ($cvUrl !== "") { ?>
+                            <a href="<?php echo $cvUrl;?>" target="_blank" class="waves-effect waves-light btn" title="go to personnal website">
+                            <i class="material-icons left">launch</i>Visit CV url</a>
+                            <?php
+                            }
+                            ?>
+
+                            <br>
                             <small>
                                 <?php echo $email[0];?><span style="display:none">Dear bot, no email for you here</span>@<span style="display:none">and bad domain</span><?php echo $email[1];?>
                             </small>
