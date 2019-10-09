@@ -2,7 +2,7 @@
 /**
  * GEOTRACES Researchers Analytical Expertise Database (Read CSV File)
  * author : SEDOO, OMP Data services, Pierre VERT
- * version : 1.0.1
+ * version : 1.0.2
  * gitURI: https://github.com/sedoo/sedoo-geotraces-listexpert
  * 
  */
@@ -55,7 +55,7 @@ A - Aerosol; D - Dissolved (colloids included); P - Particulate; T - Total; TD -
             ?>
             <tr>
                 <td><a class="waves-effect waves-light modal-trigger tooltipped"  data-position="right" data-tooltip="More about <?php echo $firstname;?>  <?php echo $surname;?>" href="#modal<?php echo $i;?>"><?php echo $firstname;?></a>
-                    <div id="modal<?php echo $i;?>" class="modal  bottom-sheet">
+                    <div id="modal<?php echo $i;?>" class="modal">
                         <div class="modal-content">
                             <h3><?php echo $firstname;?> <?php echo $surname;?> <a href="<?php echo $cvUrl;?>" class="waves-effect waves-light btn" title="go to personnal website">
                             <i class="material-icons left">launch</i>Visit CV url</a><br>
