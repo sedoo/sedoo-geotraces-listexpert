@@ -2,7 +2,7 @@
 /**
  * GEOTRACES Researchers Analytical Expertise Database (Read CSV File)
  * author : SEDOO, OMP Data services, Pierre VERT
- * version : 1.1.0
+ * version : 1.1.1
  * gitURI: https://github.com/sedoo/sedoo-geotraces-listexpert
  * 
  */
@@ -20,7 +20,7 @@ $file=fopen($fileExpertise, "r");
 A - Aerosol; D - Dissolved (colloids included); P - Particulate; T - Total; TD - Total Dissolved; Sed - Sediment; Spe - Speciation; conc - Concentrations; iso - Isotopes 
 
 </blockquote>
-
+<p>If you have trouble to see the table below, <a href="https://cdn.obs-mip.fr/geotraces/sedoo-geotraces-listexpert/" target="_blank">open it in a new window</a></p>
 <table class="striped sortable">
     <thead>
         <th><a class="tooltipped" data-position="top" data-tooltip="Sort by First name">First name</a></th>
