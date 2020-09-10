@@ -18,13 +18,22 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery.fancytable/dist/fancyTable.min.js"></script>
 <style>
     td, th {
-    padding: 10px 5px;
+
     
     }
     td,th {
+        padding: 10px 5px;
         border:1px solid #DDD;
+        vertical-align: top;
     }
 
+    th:nth-child(3) {
+        width:100px;
+    }
+
+    th:nth-child(n+6) {
+        width:300px;
+    }
 
 </style>
 <?php 
