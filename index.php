@@ -21,7 +21,7 @@ A - Aerosol; D - Dissolved (colloids included); P - Particulate; T - Total; TD -
 
 </blockquote>
 
-<table class="responsive-table striped sortable">
+<table class="striped sortable">
     <thead>
         <th><a class="tooltipped" data-position="top" data-tooltip="Sort by First name">First name</a></th>
         <th><a class="tooltipped" data-position="top" data-tooltip="Sort by Surname">Surname</th>
