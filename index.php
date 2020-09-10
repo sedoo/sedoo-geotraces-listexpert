@@ -2,7 +2,7 @@
 /**
  * GEOTRACES Researchers Analytical Expertise Database (Read CSV File)
  * author : SEDOO, OMP Data services, Pierre VERT
- * version : 1.0.3
+ * version : 1.1.0
  * gitURI: https://github.com/sedoo/sedoo-geotraces-listexpert
  * 
  */
